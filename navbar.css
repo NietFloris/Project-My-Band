@@ -1,0 +1,193 @@
+/*@font-face {*/
+    /*font-family: IndieFlower;*/
+    /*src: url("../../public/fonts/Indieflower.ttf");*/
+/*}*/
+/*@font-face {*/
+    /*font-family: AmaticSC;*/
+    /*src: url("../../public/fonts/AmaticSC-Regular.ttf");*/
+/*}*/
+/*@font-face {*/
+    /*font-family: Gloria;*/
+    /*src: url("../../public/fonts/GloriaHallelujah.ttf");*/
+/*}*/
+/*@font-face {*/
+    /*font-family: WorkSans;*/
+    /*src: url("../../public/fonts/WorkSans-Black.ttf");*/
+/*}*/
+/*@font-face {*/
+    /*font-family:Sans-Caption ;*/
+    /*src: url("../../public/fonts/PT_Sans-Caption-Web-Regular.ttf");*/
+/*}*/
+
+/*body {*/
+
+    /*font-size: 1.3em;*/
+    /*margin: 0;*/
+    /*min-height: 100vh;*/
+    /*display: grid;*/
+    /*grid-template-rows: auto 1fr auto;*/
+    /*font-family: Sans-Caption;*/
+/*}*/
+
+/*nav {*/
+    /*font-family: Sans-Caption;*/
+    /*background-color: #f7e24a;*/
+    /*color: #ddd;*/
+/*}*/
+
+/*.menu-dropdown{*/
+    /*background: #000;*/
+    /*cursor: pointer;*/
+    /*padding: 1em;*/
+    /*display: block;*/
+    /*text-align: right;*/
+/*}*/
+
+
+/*#menuDropdown {*/
+    /*display: none;*/
+/*}*/
+/*#menuDropdown:checked ~ ul a {*/
+    /*font-size: 1em;*/
+    /*height: 1em;*/
+    /*line-height: 1em;*/
+    /*transform: scaleY(1);*/
+    /*border-bottom: 1px groove #eee;*/
+/*}*/
+/*#menuDropdown:checked ~ .menu-dropdown .fa-times {*/
+    /*display: block;*/
+/*}*/
+
+/*#menuDropdown:checked ~ .menu-dropdown .fa-bars {*/
+    /*display: none;*/
+/*}*/
+
+/*.fa-times {*/
+    /*display: none;*/
+/*}*/
+
+/*nav ul{*/
+    /*list-style-type: none;*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+/*}*/
+
+/*nav a{*/
+    /*display: block;*/
+    /*color: #000000;*/
+    /*text-decoration: none;*/
+    /*padding: 1em;*/
+    /*!*hide menu*!*/
+    /*border-bottom: 0 groove #eee;*/
+    /*font-size: 0;*/
+    /*height: 0;*/
+    /*line-height: 0;*/
+    /*transform: scaleY(0);*/
+    /*transition: all 0.3s ease-in-out;*/
+/*}*/
+
+/*nav a:hover {*/
+    /*color: #f7e24a;*/
+    /*background: #000;*/
+/*}*/
+
+/*.has-submenu ul {*/
+    /*padding-left: .5em;*/
+    /*border-left: 5px double #f7e24a;*/
+/*}*/
+
+/*!*hide the submenu*!*/
+/*#navbar .has-submenu li a {*/
+    /*font-size: 0;*/
+    /*height: 0;*/
+    /*line-height: 0;*/
+    /*transform: scaleY(0);*/
+    /*border-bottom-width: 0;*/
+    /*transition: all .5s ease-in-out;*/
+/*}*/
+
+/*#navbar .has-submenu:hover li a {*/
+    /*font-size: 1em;*/
+    /*height: 1em;*/
+    /*line-height: 1em;*/
+    /*transform: scaleY(1);*/
+    /*border-bottom-width: 1px;*/
+
+/*}*/
+
+/*.has-submenu > a {*/
+    /*display: grid;*/
+    /*grid-template-columns: 1fr auto;*/
+/*}*/
+
+/*.has-submenu>a:after {*/
+    /*font-family: "Font Awesome\ 5 Free";*/
+    /*font-weight: 900;*/
+    /*content: " \f0d7";*/
+/*}*/
+/*.has-submenu:hover > a::after {*/
+    /*content: "\f150";*/
+/*}*/
+
+/*main {*/
+    /*padding: 1em;*/
+/*}*/
+
+/*main img {*/
+    /*max-width: 100% ;*/
+/*}*/
+
+/*footer {*/
+    /*padding: 1em;*/
+    /*background-color: #333;*/
+    /*color: #ddd;*/
+    /*display: grid;*/
+    /*grid-template-columns: 1fr auto;*/
+/*}*/
+
+/*!*widht viewport*!*/
+/*@media screen and (min-width:40em){*/
+
+    /*nav>ul {*/
+        /*display: grid;*/
+        /*grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));*/
+    /*}*/
+
+    /*.menu-dropdown {*/
+        /*display: none;*/
+    /*}*/
+
+    /*nav a {*/
+        /*font-size: 1em;*/
+        /*height: 1em;*/
+        /*line-height: 1em;*/
+        /*transform: scaleY(1);*/
+    /*}*/
+
+    /*.has-submenu ul {*/
+        /*position: absolute;*/
+        /*border-left: 0;*/
+        /*padding: 0;*/
+        /*width: 100%;*/
+    /*}*/
+
+    /*.has-submenu {*/
+        /*position: relative;*/
+    /*}*/
+
+    /*.has-submenu a {*/
+        /*background-color: #f7e24a;*/
+    /*}*/
+
+    /*nav>ul>li:not(:first-child)>a {*/
+        /*border-left: 1px solid #eee;*/
+    /*}*/
+
+/*}*/
+
+/*input {*/
+    /*width: 50%;*/
+    /*border-color: black;*/
+    /*border-width: 1px;*/
+    /*text-align: center;*/
+/*}*/
